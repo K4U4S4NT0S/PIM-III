@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "foodsmart-full", "foodsmart-full", "{AFBF47C5-18D0-DF9B-CC90-EB09D15C3811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{53ECF69C-7BE9-1B5D-5024-18D6236E8840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodSmart.Api", "foodsmart-full\backend\FoodSmart.Api\FoodSmart.Api.csproj", "{CD604B41-6CCD-E006-F02C-BB85A5C3719C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD604B41-6CCD-E006-F02C-BB85A5C3719C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD604B41-6CCD-E006-F02C-BB85A5C3719C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD604B41-6CCD-E006-F02C-BB85A5C3719C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD604B41-6CCD-E006-F02C-BB85A5C3719C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53ECF69C-7BE9-1B5D-5024-18D6236E8840} = {AFBF47C5-18D0-DF9B-CC90-EB09D15C3811}
+		{CD604B41-6CCD-E006-F02C-BB85A5C3719C} = {53ECF69C-7BE9-1B5D-5024-18D6236E8840}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5662DEFE-E015-4CA3-BF09-999DF05D7F25}
+	EndGlobalSection
+EndGlobal
