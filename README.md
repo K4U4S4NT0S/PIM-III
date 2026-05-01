@@ -80,7 +80,7 @@ foodsmart/
 ├── .gitignore
 ├── .env.example
 └── README.md
-
+```
 ✨ Funcionalidades
 🍔 Listagem de produtos (cardápio)
 🛒 Carrinho de compras
@@ -139,3 +139,4 @@ Posso te ajudar a:
 - colocar **preview com imagem do site**
 - criar **badges personalizados**
 - adicionar **deploy online (Vercel + API)**
+
