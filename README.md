@@ -1,8 +1,26 @@
-# 🍔 FOODSMART - PIM III
+# PIM-III
+PIM_III_Projeto Integrado Multidisciplinar_UNIP
 
-Sistema Web para gerenciamento de pedidos de uma hamburgueria.  
-Projeto desenvolvido para o **Projeto Integrado Multidisciplinar III - UNIP**.
+<h1 align="center">🍔 FOODSMART</h1>
 
+<p align="center">
+  Sistema Web para Hamburgueria • PIM III - UNIP
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange"/>
+  <img src="https://img.shields.io/badge/C%23-.NET-blue"/>
+  <img src="https://img.shields.io/badge/Frontend-JS-yellow"/>
+  <img src="https://img.shields.io/badge/Database-SQLite-green"/>
+</p>
+
+---
+
+## 🚀 Sobre o Projeto
+
+O *FOODSMART* é um sistema web desenvolvido como parte do *PIM III (Projeto Integrado Multidisciplinar)* da UNIP.
+
+A proposta é simular uma *hamburgueria digital completa, permitindo que usuários visualizem produtos, adicionem ao carrinho e realizem pedidos, enquanto o sistema gerencia dados via **API em C#* e banco de dados.
 ---
 
 ## 👥 Integrantes
@@ -115,7 +133,7 @@ http://localhost:5077/api
 
 ---
 
-##🧪 Teste do Sistema
+## 🧪 Teste do Sistema
 - Inicie o backend
 - Inicie o frontend
 - Adicione produtos
@@ -136,7 +154,7 @@ http://localhost:5077/api/orders
 
 ---
 
-##🎯 Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
 Desenvolver um sistema web completo integrando:
 
