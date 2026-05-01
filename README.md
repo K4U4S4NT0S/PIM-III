@@ -81,52 +81,68 @@ foodsmart/
 ├── .env.example
 └── README.md
 ```
-✨ Funcionalidades
-🍔 Listagem de produtos (cardápio)
-🛒 Carrinho de compras
-➕ Adição e remoção de itens
-💰 Cálculo automático de valores
-📦 Registro de pedidos
-🔗 API em C# para comunicação com o banco
-📱 Layout responsivo
-🎨 Interface moderna e interativa
-⚙️ Como Rodar o Projeto
-📥 Clonar o repositório
-git clone https://github.com/K4U4S4NT0S/PIM-III.git
-📂 Acessar o projeto
-cd PIM-III
-🌐 Rodar o Front-end
+---
 
+## ✨ Funcionalidades
+
+- 🍔 Listagem de produtos (cardápio)
+- 🛒 Carrinho de compras
+-➕ Adição e remoção de itens
+- 💰 Cálculo automático de valores
+- 📦 Registro de pedidos
+- 🔗 API em C# para comunicação com o banco
+- 📱 Layout responsivo
+- 🎨 Interface moderna e interativa
+- ⚙️ Como Rodar o Projeto
+- 📥 Clonar o repositório
+
+---
+
+## git clone https://github.com/K4U4S4NT0S/PIM-III.git
+
+- 📂 Acessar o projeto
+  cd PIM-III
+
+🌐 Rodar o Front-end
 Abra:
 
-frontend/index.html
+- frontend/index.html uu use Live Server (VS Code)
 
-Ou use Live Server (VS Code)
+---
 
-⚙️ Rodar o Back-end
+## ⚙️ Rodar o Back-end
 cd backend
 dotnet run
-👨‍💻 Equipe
+
+---
+
+## 👨‍💻 Equipe
+
 Nome	Responsabilidade
-Kauã	Front-end, integração, estrutura
-Igor	Back-end, banco de dados, API
-Vitor	Documentação, UX/UI, requisitos
-📊 Status
+- Kauã	Front-end, integração, estrutura
+- Igor	Back-end, banco de dados, API
+- Vitor	Documentação, UX/UI, requisitos
 
-🚧 Projeto em desenvolvimento
-🔄 Em constante evolução
+---
 
-🎓 Projeto Acadêmico
+## 📊 Status
+
+- 🚧 Projeto em desenvolvimento
+- 🔄 Em constante evolução
+
+---
+
+## 🎓 Projeto Acadêmico
 
 Este sistema foi desenvolvido para o PIM III da UNIP, com o objetivo de integrar conhecimentos técnicos e práticos adquiridos durante o curso.
 
-📌 Futuras Melhorias
-🔐 Sistema de login
-📊 Dashboard de vendas
-🤖 Análise de dados / ML
-🧾 Painel administrativo
-📦 Integração completa front + back
-📄 Licença
+- 📌 Futuras Melhorias
+- 🔐 Sistema de login
+- 📊 Dashboard de vendas
+- 🤖 Análise de dados / ML
+- 🧾 Painel administrativo
+- 📦 Integração completa front + back
+- 📄 Licença
 
 Projeto acadêmico, sem fins comerciais.
 
