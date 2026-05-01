@@ -81,44 +81,68 @@ CREATE TABLE order_items (
     FOREIGN KEY (OrderId) REFERENCES orders(Id),
     FOREIGN KEY (ProductId) REFERENCES products(Id)
 );
-🔧 Executando o Backend
-cd backend/FoodSmart.Api
-dotnet run
 
-A API estará disponível em:
+```
+---
 
-http://localhost:5077
-🎨 Executando o Frontend
-cd frontend
-npm install
-npm run dev
+## 🔧 Executando o Backend
+ - cd backend/FoodSmart.Api
+ - dotnet run
+
+---
+
+## A API estará disponível em:
+- http://localhost:5077
+
+---
+
+## 🎨 Executando o Frontend
+- cd frontend
+- npm install
+- npm run dev
 
 Acesse:
 
 http://localhost:5173
+
+---
+
 🔗 Integração
 
 O frontend consome a API via:
 
 http://localhost:5077/api
-🧪 Teste do Sistema
-Inicie o backend
-Inicie o frontend
-Adicione produtos
-Finalize um pedido
+
+---
+
+##🧪 Teste do Sistema
+- Inicie o backend
+- Inicie o frontend
+- Adicione produtos
+- Finalize um pedido
+
 Consulte:
 http://localhost:5077/api/orders
-📌 Funcionalidades
-Cadastro de pedidos
-Listagem de pedidos
-Integração com banco MySQL
-Interface interativa
-API REST
-🎯 Objetivo do Projeto
+
+----
+
+## 📌 Funcionalidades
+
+- Cadastro de pedidos
+- Listagem de pedidos
+- Integração com banco MySQL
+- Interface interativa
+- API REST
+
+---
+
+##🎯 Objetivo do Projeto
 
 Desenvolver um sistema web completo integrando:
 
-Backend
-Banco de dados
-Interface web
-Comunicação via API
+- Backend
+- Banco de dados
+- Interface web
+- Comunicação via API
+
+---
