@@ -1,83 +1,124 @@
-# FOODSMART — Projeto Full Stack
+# 🍔 FOODSMART - PIM III
 
-Projeto reestruturado com **frontend Vite** e **API C# ASP.NET Core** integrada ao **MySQL**.
+Sistema Web para gerenciamento de pedidos de uma hamburgueria.  
+Projeto desenvolvido para o **Projeto Integrado Multidisciplinar III - UNIP**.
 
-## Estrutura
+---
 
-```txt
-foodsmart-reestruturado/
-├── backend/
-│   └── FoodSmart.Api/
-│       ├── Controllers/
-│       ├── Data/
-│       ├── Models/
-│       ├── Program.cs
-│       ├── appsettings.json
-│       └── FoodSmart.Api.csproj
-├── frontend/
-│   ├── css/
-│   ├── js/
-│   ├── index.html
-│   └── package.json
-├── .env.example
-├── .gitignore
-├── foodsmart-full.sln
-└── README.md
-```
+## 👥 Integrantes
 
-## 1. Configurar banco MySQL
+- 👨‍💻 **Kauã Santos da Silva**
+- 👨‍💻 **Igor**
+- 👨‍💻 **Vitor**
 
-Crie o banco no MySQL Workbench:
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚙️ Backend: C# / .NET 8 (ASP.NET Core API)
+- 🎨 Frontend: HTML, CSS, JavaScript
+- 🗄️ Banco de Dados: MySQL
+- 🔗 Integração: API REST
+
+---
+
+## 📁 Estrutura do Projeto
+
+
+foodsmart/
+├── backend/ → API em .NET
+├── frontend/ → Interface web
+├── README.md
+
+
+---
+
+## ⚙️ Pré-requisitos
+
+Antes de executar o projeto, instale:
+
+- [.NET SDK 8](https://dotnet.microsoft.com/)
+- [Node.js](https://nodejs.org/)
+- [MySQL](https://www.mysql.com/)
+- MySQL Workbench (opcional)
+- VS Code (recomendado)
+
+---
+
+## 🗄️ Configuração do Banco de Dados
+
+1. Abra o MySQL Workbench
+2. Execute:
 
 ```sql
 CREATE DATABASE foodsmart;
-```
+USE foodsmart;
+Crie as tabelas:
+CREATE TABLE orders (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    CustomerName VARCHAR(100),
+    CustomerPhone VARCHAR(20),
+    Total DECIMAL(10,2) DEFAULT 0
+);
 
-Depois ajuste a senha no arquivo:
+CREATE TABLE products (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100),
+    Description TEXT,
+    Price DECIMAL(10,2),
+    Category VARCHAR(50),
+    Emoji VARCHAR(10),
+    IsActive BOOLEAN DEFAULT TRUE
+);
 
-```txt
-backend/FoodSmart.Api/appsettings.json
-```
-
-```json
-"DefaultConnection": "server=localhost;port=3306;database=foodsmart;user=root;password=SUA_SENHA;"
-```
-
-## 2. Rodar a API
-
-```bash
+CREATE TABLE order_items (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    OrderId INT,
+    ProductId INT,
+    Quantity INT,
+    UnitPrice DECIMAL(10,2),
+    FOREIGN KEY (OrderId) REFERENCES orders(Id),
+    FOREIGN KEY (ProductId) REFERENCES products(Id)
+);
+🔧 Executando o Backend
 cd backend/FoodSmart.Api
-dotnet restore
 dotnet run
-```
 
-API local:
+A API estará disponível em:
 
-```txt
-http://localhost:5077/api
-```
-
-Teste:
-
-```txt
-http://localhost:5077/api/health
-http://localhost:5077/api/products
-```
-
-## 3. Rodar o frontend
-
-```bash
+http://localhost:5077
+🎨 Executando o Frontend
 cd frontend
 npm install
 npm run dev
-```
 
-Frontend local:
+Acesse:
 
-```txt
 http://localhost:5173
-```
+🔗 Integração
 
-## Observação
+O frontend consome a API via:
 
-A estrutura foi limpa para remover arquivos desnecessários como `.git`, `bin`, `obj`, duplicações de projeto e pastas antigas soltas.
+http://localhost:5077/api
+🧪 Teste do Sistema
+Inicie o backend
+Inicie o frontend
+Adicione produtos
+Finalize um pedido
+Consulte:
+http://localhost:5077/api/orders
+📌 Funcionalidades
+Cadastro de pedidos
+Listagem de pedidos
+Integração com banco MySQL
+Interface interativa
+API REST
+🎯 Objetivo do Projeto
+
+Desenvolver um sistema web completo integrando:
+
+Backend
+Banco de dados
+Interface web
+Comunicação via API
