@@ -47,13 +47,13 @@ A proposta é simular uma *hamburgueria digital completa, permitindo que usuári
 
 ## 📁 Estrutura do Projeto
 
-
+```bash
 foodsmart/
-├── backend/ → API em .NET
-├── frontend/ → Interface web
-├── README.md
+├── backend/     # API em .NET
+├── frontend/    # Interface web
+└── README.md
 
-
+```
 ---
 
 ## ⚙️ Pré-requisitos
