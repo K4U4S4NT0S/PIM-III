@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# builds
+frontend/dist/
+bin/
+obj/
+
+# env / secrets
+.env
+.env.*
+appsettings.Production.json
+*.user
+*.suo
+.vs/
+.vscode/*
+!.vscode/extensions.json
+
+# database local
+*.db
+*.sqlite
+*.sqlite3
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
