@@ -149,10 +149,4 @@ Projeto acadêmico, sem fins comerciais.
 
 ---
 
-## 🔥 Se quiser deixar ainda MAIS top
-
-Posso te ajudar a:
-- colocar **preview com imagem do site**
-- criar **badges personalizados**
-- adicionar **deploy online (Vercel + API)**
 
