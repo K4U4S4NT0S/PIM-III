@@ -9,11 +9,15 @@ PIM_III_Projeto Integrado Multidisciplinar_UNIP
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange"/>
-  <img src="https://img.shields.io/badge/C%23-.NET-blue"/>
-  <img src="https://img.shields.io/badge/Frontend-JS-yellow"/>
-  <img src="https://img.shields.io/badge/Database-SQLite-green"/>
+  <img src="https://img.shields.io/badge/C%23-.NET%208-blue"/>
+  <img src="https://img.shields.io/badge/Backend-ASP.NET%20Core-blueviolet"/>
+  <img src="https://img.shields.io/badge/Frontend-JavaScript-yellow"/>
+  <img src="https://img.shields.io/badge/HTML-5-orange"/>
+  <img src="https://img.shields.io/badge/CSS-3-blue"/>
+  <img src="https://img.shields.io/badge/Database-MySQL-blue"/>
+  <img src="https://img.shields.io/badge/API-REST-green"/>
+  <img src="https://img.shields.io/badge/ORM-Entity%20Framework-purple"/>
 </p>
-
 ---
 
 ## 🚀 Sobre o Projeto
